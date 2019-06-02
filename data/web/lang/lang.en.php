@@ -859,3 +859,8 @@ $lang['danger']['text_empty'] = 'Text must not be empty';
 $lang['danger']['subject_empty'] = 'Subject must not be empty';
 $lang['danger']['from_invalid'] = 'Sender must not be empty';
 $lang['danger']['network_host_invalid'] = 'Invalid network or host: %s';
+
+$lang['debug']['clamav_status'] = 'ClamAV status';
+$lang['debug']['clamav_enabled'] = 'ClamAV is enabled';
+$lang['debug']['clamav_disabled'] = 'ClamAV is disabled';
+$lang['debug']['clamav_explain'] = 'ClamAV scans your emails for viruses. You can enable it by setting <b>SKIP_CLAM</b> to <b>n</b> in mailcow.conf <br><br> Please note that it is not recommened to enable ClamAV on systems that have lees then 2.5 GiB RAM.';
