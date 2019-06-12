@@ -830,3 +830,8 @@ $lang['danger']['text_empty'] = 'Text darf nicht leer sein';
 $lang['danger']['subject_empty'] = 'Betreff darf nicht leer sein';
 $lang['danger']['from_invalid'] = 'From address must be a valid email address';
 $lang['danger']['network_host_invalid'] = 'Netzwerk oder Host ungültig: %s';
+
+$lang['debug']['clamav_status'] = 'ClamAV Status';
+$lang['debug']['clamav_enabled'] = 'ClamAV ist aktiv';
+$lang['debug']['clamav_disabled'] = 'ClamAV ist deaktiviert';
+$lang['debug']['clamav_explain'] = 'ClamAV durchsucht emails nach Viren. Es kann mit der Option <b>SKIP_CLAM</b> aktiviert werden dafür muss diese auf <b>n</b> in mailcow.conf gesetzt werden. <br><br> Dabei sollte beachtet werden, dass ClamAV auf Servern mit weniger als 2.5 GiB RAM nicht aktiviert werden sollte.';
