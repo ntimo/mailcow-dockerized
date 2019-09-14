@@ -348,7 +348,8 @@ services:
         - php-fpm-mailcow
         - redis-mailcow
       restart: always
-      privileged: true
+      cap_add:
+        - NET_ADMIN
       environment:
         - TZ=${TZ}
         - IPV4_NETWORK=${IPV4_NETWORK:-172.22.1}
